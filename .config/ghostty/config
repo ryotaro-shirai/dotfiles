@@ -1,0 +1,36 @@
+# --- 見た目・フォント ---
+
+# テーマ
+theme = Nord
+
+# 行間を少し広げてモダンにする
+adjust-cell-height = 10%
+
+# フォントファミリー 
+font-family = "Menlo"
+font-family = "BIZ UDGothic"
+
+# ウィンドウ内の余白を入れて圧迫感を減らす
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+background-opacity = 0.7
+background-blur-radius = 45
+
+# --- Macネイティブな挙動 ---
+# タイトルバーを透明にしてスッキリさせる
+macos-titlebar-style = transparent
+# 入力中はマウスカーソルを隠す
+mouse-hide-while-typing = true
+
+# --- 操作性 ---
+# 選択しただけでクリップボードにコピー
+copy-on-select = true
+# クリップボードの読み書きを許可
+clipboard-read = allow
+clipboard-write = allow
+
+
+# --- term 設定 ---
+# 古い EC2 には xterm-ghostty が入っていないので標準の term を設定する
+term = xterm-256color
